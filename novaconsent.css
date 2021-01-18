@@ -1,0 +1,41 @@
+.novaConsentContainer {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  bottom: 0px !important;
+  left: 0px !important;
+  width: 100%  !important;
+  min-height: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid #fff;
+  overflow: hidden;
+  color: #FFFFFF;
+  font-family: OpenSans, Arial, "sans-serif";
+  font-size: 1rem;
+  transition: all 0.2s linear;
+}
+
+.novaConsentContainer a {
+  color: #ffffff;
+}
+
+.novaConsentContainer .novaConsentButton a {
+  font-weight: bold;
+  margin-top: 14px;
+  background: #3E9B67;
+  box-sizing: border-box; 
+  padding: 10px 20px;
+  transition: background 0.3s;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+
+.novaConsentContainer .novaConsentButton a:hover { 
+  cursor: pointer;
+  background: #317c52;
+}
+

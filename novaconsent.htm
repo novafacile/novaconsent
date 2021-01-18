@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>novaCookie Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" type="text/css" href="novaconsent.css" />
+  <style type="text/css">
+    body {
+      font-family: OpenSans, Arial, "sans-serif";
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="width:100%;max-width:780px;margin:20px auto 100px auto;">
+    <h1>novaConsent</h1>
+    <p>
+      <small>Version 1.0</small><br>
+      Simple Cookie Consent Layer.<br>
+      Currently only technically necessary cookies supported!
+    </p>
+    <h2>Integration</h2>
+    <p>
+      Include in <i>head</i>:<br>
+      <code>&lt;link rel="stylesheet" type="text/css" href="novaconsent.css" /&gt;</code><br><br>
+      Include at the end of the <i>body</i>:<br>
+      <code>&lt;script src="novaconsent.js" async&gt;&lt;/script&gt;</code>
+    </p>
+    <h2>Own Configuration</h2>
+    <p>
+      You can use your own configuration. Just include a javascript variable with the name <code>novaConsentConfig</code> and overwride the values as your wish. It's not necessary to overwrite every value.
+    </p>
+    <h3>Examples</h3>
+    <h4>Full configuration</h4>
+    
+    <pre>
+&lt;script type="text/javascript" charset="utf-8"&gt;
+var novaConsentConfig = {
+  cookieName: "novaConsent",
+  cookieTimeout: 365,
+  infoText: "We only use technically necessary cookies.",
+  acceptButtonText: "Okay",
+  moreInfo: "&lt;a href='/privacy'&gt;Details&lt;/a&gt;",
+  SameSite: "Strict",  
+}
+&lt;/script&gt;
+    </pre>
+
+    <h4>Overwrite just some values</h4>
+    <pre>
+&lt;script type="text/javascript" charset="utf-8"&gt;
+var novaConsentConfig = {
+  cookieTimeout: 250,
+  moreInfo: "&lt;a href='/privacy'&gt;Details&lt;/a&gt;",
+}
+&lt;/script&gt;
+    </pre>
+
+
+  </div>
+
+<script type="text/javascript" charset="utf-8">
+  var novaConsentConfig = {
+    moreInfo: "<a href='#lala'>Details</a>"
+  }
+</script>
+
+<script src="novaconsent.min.js" async></script>
+
+
+</body>
+</html>
