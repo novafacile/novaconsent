@@ -15,7 +15,7 @@ Include at the end of the body:
 
 ## Own Configuration
 
-You can use your own configuration. Just include a javascript variable with the name ```novaConsentConfig``` and overwride the values as your wish. It's not necessary to overwrite every value.
+You can use your own configuration. Just include a javascript variable with the name ```novaConsentConfig``` **before** you load the novaConsent Script and overwride the values as your wish. It's not necessary to overwrite every value.
 
 ### Example with Full Configuration
 ```
