@@ -1,9 +1,9 @@
 # novaConsent
 novaConsent - Simple Cookie Consent Layer
 
-Version 1.0
-Simple Cookie Consent Layer.
-Currently only technical neccesary cookies supported!
+Version 1.0 - Simple Cookie Consent Layer.
+
+**Currently only technical necessary cookies supported!**
 
 ## Integration
 
@@ -15,7 +15,7 @@ Include at the end of the body:
 
 ## Own Configuration
 
-You can use your own configuration. Just include a javascript variable with the name novaConsentConfig and overwride the values as your wish. It's not neccessary to overwrite every value.
+You can use your own configuration. Just include a javascript variable with the name ```novaConsentConfig``` and overwride the values as your wish. It's not necessary to overwrite every value.
 
 ### Example with Full Configuration
 ```
@@ -23,7 +23,7 @@ You can use your own configuration. Just include a javascript variable with the 
 var novaConsentConfig = {
   cookieName: "novaConsent",
   cookieTimeout: 365,
-  infoText: "We only use technically neccesary cookies.",
+  infoText: "We only use technically necessary cookies.",
   acceptButtonText: "Okay",
   moreInfo: "<a href='/privacy'>Details</a>",
   SameSite: "Strict",  
