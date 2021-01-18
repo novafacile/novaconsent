@@ -1,7 +1,7 @@
 # novaConsent
-novaConsent - Simple Cookie Consent Layer
+Simple Cookie Consent Layer.
 
-Version 1.0 - Simple Cookie Consent Layer.
+Version 1.0 - Only for technical cookies
 
 **Currently only technical necessary cookies supported!**
 
